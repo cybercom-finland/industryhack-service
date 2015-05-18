@@ -2,7 +2,7 @@
   "name": "industryhack-demo-service",
   "version": "0.0.1",
   "scripts": {
-    "start": "iojs --harmony_arrow_functions service/app.js"
+    "start": "iojs --harmony_arrow_functions service/agent.js"
   },
   "dependencies": {
     "express": "^4.12.4"
