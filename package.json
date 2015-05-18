@@ -1,0 +1,10 @@
+{
+    "name": "industryhack",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "iojs --harmony_arrow_functions app.js"
+    },
+    "dependencies": {
+        "express": "^4.12.4"
+    }
+}
