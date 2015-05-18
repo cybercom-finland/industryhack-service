@@ -1,10 +1,33 @@
 {
-    "name": "industryhack",
-    "version": "0.0.1",
-    "scripts": {
-        "start": "iojs --harmony_arrow_functions service/app.js"
-    },
-    "dependencies": {
-        "express": "^4.12.4"
-    }
+  "name": "industryhack-demo-service",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "iojs --harmony_arrow_functions service/app.js"
+  },
+  "dependencies": {
+    "express": "^4.12.4"
+  },
+  "main": "service/agent.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cybercom-finland/industryhack-service.git"
+  },
+  "keywords": [
+    "industryhack",
+    "demo",
+    "service",
+    "agent",
+    "microservice"
+  ],
+  "author": "Cybercom Finland Oy",
+  "contributors": [{
+      "name": "Mika Turunen",
+      "email": "mika.turunen@ymail.com"
+  }],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cybercom-finland/industryhack-service/issues"
+  },
+  "homepage": "https://github.com/cybercom-finland/industryhack-service"
 }
