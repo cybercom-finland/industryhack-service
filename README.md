@@ -5,6 +5,8 @@ Simple service example that is demonstrates what it takes to run an application 
 
 You need to have Docker installed to run the application.
 
+    git clone git@github.com:cybercom-finland/industryhack-service.git industryhack
+    cd industryhack
     docker build -t industryhack .                  # Build application
     docker run --rm -p 9000:3000 industryhack       # Runs application and maps the host port 9000 to container port 3000 that is exposed in Dockerfile
 
